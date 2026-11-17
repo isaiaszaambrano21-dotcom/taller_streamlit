@@ -1,5 +1,5 @@
-import streamlit as st
-import google.generativeai as genai
+import streamlit as st #lo que necesito para hacer la app 
+import google.generativeai as genai 
 from PIL import Image  # Librería para manejar imágenes en Python
 
 # --- 1. CONFIGURACIÓN INICIAL ---
