@@ -5,7 +5,7 @@ from PIL import Image  # Librería para manejar imágenes en Python
 # --- 1. CONFIGURACIÓN INICIAL ---
 # st.secrets['GOOGLE_API_KEY'] busca la llave que guardamos en el Setting de Streamlit Cloud.
 if "GOOGLE_API_KEY" in st.secrets:
-    genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
+    genai.configure(api_key=st.secrets["GOOGLE_API_KEY = "AQ.Ab8RN6Ipgkku-bsV43VED1CHa-s9zJNGLPvBqhmtbBDTOTEIGA""])
 else:
     st.error("⚠️ Falta configurar la GOOGLE_API_KEY en los Secrets de Streamlit.")
     st.stop() # Detiene la ejecución si no hay llave
